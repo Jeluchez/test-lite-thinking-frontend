@@ -1,0 +1,101 @@
+@import '/src/assets/styles/base/mixins.scss';
+
+
+.login {
+    height: 100vh;
+    display: flex;
+}
+
+.login__slide {
+
+    padding: rem(45);
+    background: #F2F5F8;
+    display: none;
+    flex: 1;
+    min-width: rem(300);
+    max-width: rem(400);
+
+    h1 {
+        margin-bottom: rem(30);
+        line-height: 1.5;
+    }
+
+    p {
+        color: var(--gray);
+    }
+
+    &-square {
+        margin-top: rem(20);
+        margin-bottom: rem(20);
+        border-radius: 5px;
+        border: rem(7) solid var(--blue);
+        height: rem(10);
+        width: rem(10);
+    }
+}
+
+.login__form-container {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__form {
+    width: rem(360);
+
+    p {
+        margin-top: rem(20);
+        color: var(--gray);
+    }
+
+    label {
+        display: block;
+        color: var(--gray);
+        margin-top: 20px;
+    }
+
+    span {
+        color: red;
+        font-size: 12px;
+        display: block;
+    }
+}
+
+.form__input {
+    display: flex;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+
+    input {
+        flex: 1 1 auto;
+        height: rem(40);
+
+    }
+
+    button {
+        margin-right: rem(10);
+    }
+
+    input:not([type="submit"]) {
+        margin-left: 10px;
+    }
+}
+
+.login__form-submit {
+    cursor: pointer;
+    margin-top: 20px;
+    height: rem(40);
+    width: 100%;
+    border-radius: 7px;
+    color: #fff;
+    background: var(--blue);
+}
+
+@media (min-width: 768px) {
+    .login__slide {
+        display: block;
+    }
+}

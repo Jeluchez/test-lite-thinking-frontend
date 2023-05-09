@@ -1,0 +1,22 @@
+@import './base/mixins';
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --gray: #72757E;
+    --blue: #3C37FF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input,
+button {
+    background: none;
+    outline: none;
+    border: none;
+}
