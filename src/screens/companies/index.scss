@@ -1,0 +1,47 @@
+.company {
+    padding: rem(50);
+    padding-bottom: 0;
+    overflow: auto;
+
+    &__header {
+        line-height: 2;
+
+        &-desc {
+            color: var(--gray)
+        }
+
+    }
+}
+
+.header__btn-create {
+    margin-top: rem(20);
+    height: rem(40);
+    width: rem(100);
+    border: 1px solid var(--blue);
+    border-radius: 7px;
+    cursor: pointer;
+    background: #fff;
+    color: var(--blue);
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+        background: var(--blue-over);
+    }
+
+    .btn__create-icon {
+        margin-right: rem(10);
+    }
+}
+
+// COMPANY GRID
+
+.company__grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.company__item {
+    flex: 1 1 rem(150);
+    margin-left: rem(10);
+
+}

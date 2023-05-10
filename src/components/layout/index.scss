@@ -1,5 +1,18 @@
+.layout {
+    height: 100vh;
+
+    > :last-child {
+        padding-bottom: rem(80);
+    }
+}
+
+
 @media (min-width: 768px) {
     .layout {
         display: flex;
+
+        > :last-child {
+            padding-bottom: 0;
+        }
     }
 }

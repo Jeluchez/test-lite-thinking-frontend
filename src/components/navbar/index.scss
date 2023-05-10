@@ -1,5 +1,5 @@
 .navbar {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     background: var(--blue);
@@ -70,7 +70,8 @@
 
     .navbar__list {
         flex-direction: column;
-        margin-top: rem(70);
+        margin-top: rem(90);
+        width: 200px;
 
         li>a {
             text-decoration: none;
