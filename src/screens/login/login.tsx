@@ -1,6 +1,5 @@
 import { LoginForm } from 'components/loginForm/LoginForm'
-import './index.scss'
-export const Login = () => {
+export const LoginScreen = () => {
   return (
     <div className='login'>
       <div className='login__slide'>

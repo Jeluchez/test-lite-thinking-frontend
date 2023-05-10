@@ -1,7 +1,8 @@
-import { Login } from 'screens/login/login'
+import { LoginScreen } from 'screens/login/login'
 import 'assets/styles/styles.scss'
+import { RouterApp } from 'routes/routeApp'
 function InventoryApp () {
-  return <Login />
+  return <RouterApp />
 }
 
 export default InventoryApp

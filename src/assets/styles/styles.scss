@@ -1,4 +1,8 @@
 @import './base/mixins';
+@import '/src/components/navbar/index.scss';
+@import '/src/components/layout/index.scss';
+@import '/src/components/card/index.scss';
+@import '/src/screens/login/index.scss';
 
 html {
     font-family: 'Roboto', sans-serif;
@@ -7,6 +11,7 @@ html {
 :root {
     --gray: #72757E;
     --blue: #3C37FF;
+    --blue-over: #DDE2EC;
 }
 
 * {
